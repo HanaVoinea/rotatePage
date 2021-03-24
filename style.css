@@ -1,4 +1,4 @@
-  
+    
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 *{
@@ -18,7 +18,7 @@ body{
 .container{
 	background-color: #000000;
 	transform-origin: top left;
-	transition: transform 0.5s liner;
+	transition: transform 0.5s linear;
 	width: 100vw;
 	min-height: 100vh;
 	padding: 60px;
@@ -40,7 +40,7 @@ body{
 	width: 200px;
 	border-radius: 50%;
 	position:relative;
-	transition: transform 0.5s linier;
+	transition: transform 0.5s linear;
 }
 
 .container.show-nav .circle {
@@ -72,10 +72,10 @@ body{
 }
 
 .circle button#close{
-	top: 55%;
+	top: 58%;
 	transform: rotate(90deg);
 	transform-origin: top left;
-	left: 50%;
+	left: 48%;
 
 }
 
@@ -128,7 +128,7 @@ nav ul li + li + li {
 }
 
 .content{
-	max-width: 1350px;
+	max-width: 1000px;
 	margin: 50px auto;
 }
 
